@@ -1,0 +1,250 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Freeroad light;
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: Freeroad Light;
+    src: url(fonts/Freeroad\ Light.ttf);
+}
+body {
+  background-image: url(img/achtergrond.gif);
+  color: #fff;
+  overflow: hidden;
+  background-size: cover;
+  display: grid;
+  grid-auto-columns: 33.33% 33.33% auto;
+  grid-auto-rows: 50% 50% 50%;
+}
+
+#header {
+  grid-column:1/3;
+  grid-row: 1/2;
+  background-color: rgba(000, 000, 000, 0.7);
+  margin-top: -5vh;
+  margin-left: 0vh;
+  margin-right: -73vh;
+  margin-bottom: 0vh;
+  height: 18vh;
+  
+  font-family: abolition, sans-serif;
+ 
+}
+
+#header h1 {
+  float:left;
+  font-size: 66px;
+  
+  margin-left: 2%;
+  font-family: abolition, sans-serif;
+  font-weight: 300;
+}
+
+#header h2{
+  float: right;
+  text-align:center;
+  padding-top: 25px;
+  padding-right: 100px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#filterbox h1 {
+  font-family: abolition, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+#blackbox {
+  grid-column: 2/4;
+  grid-row: 1/3;
+  /* background-color: rgba(000, 000, 000, 0.7); */
+  margin-top: 25vh;
+  margin-left: -18vh;
+  margin-right: 10vh;
+  margin-bottom: 0vh;
+  height: 73vh;
+  /* width: 1000px; */
+  overflow-y: scroll;
+    position: relative;
+    
+  
+}
+
+#filterbox {
+  grid-column:1/2;
+  grid-row: 1/2;
+  background-color: rgba(000, 000, 000, 0.7);;;
+  margin-top: 25vh;
+  margin-left: 5vh;
+  margin-right: 30vh;
+  height: 87vh;
+  overflow: hidden;
+  position: relative;
+  
+    
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(94, 93, 93, 0.4);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(94, 93, 93, 0.4); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(94, 93, 93, 0.4);
+}
+
+/* .cards {
+   /* background-image: url(img/stroomtrein.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; */
+/* 
+  overflow-y: scroll;
+  position: relative; */
+
+.cards{
+  width: 20%;
+  /* background-color: rgba(255, 255, 255,0.8); */
+  background-color: rgba(000, 000, 000, 0.7);
+  /* border: 0.5px solid black; */
+  padding-top: 2%;
+  margin-left: 35px;
+  margin-bottom: 5%;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+
+  /* border: 1px solid grey; */
+  /* border-radius: 5px; */
+  /* background-color: rgba(255, 255, 255, 0.95); */
+  }
+  
+  .card{
+    padding: 0;
+    margin: 0;
+    flex: 1;  
+    display: flex;
+  flex-wrap: wrap; 
+  text-align: center;
+  
+  /* background-color: white; */
+  
+  }
+  
+  /* .filtered-cards{
+    width: 75vw;
+    height: 100%;
+} */
+
+
+
+.filterbox a {
+  text-decoration: none;
+  color: white;
+  font-family: Freeroad Light;
+  
+}@font-face {
+    font-family: Freeroad Light;
+    src: url(fonts/Freeroad\ Light.ttf);
+}
+
+
+#header a{
+  text-decoration: none;
+  color: white;
+}
+
+p:hover {
+color: darkblue;
+}
+
+h4 {
+  text-align: left;
+  font-weight: 300;
+  line-height: 0.5;
+  padding-left: 10%;
+}
+
+.tab {
+
+}
+
+
+.tabcontent {
+  
+}
+
+
+#homebox {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: rgb(38,36,31);
+  margin-top: 25vh;
+  margin-left: 2.5vh;
+  margin-right: 0vh;;
+  margin-bottom: 0vh;
+  height: 90vh;
+  /* width: 1000px; */
+  /* overflow-y: scroll; */
+    position: relative;
+    background-size: cover;
+ 
+}
+
+.beckbier {
+margin-bottom: 5px;
+margin-left: 17.5px;
+}
+
+
+
+.thuisbrouwkit {
+  
+}
+
+.bpcards{
+  width: 25%;
+  /* background-color: rgba(255, 255, 255,0.8); */
+
+  /* border: 0.5px solid black; */
+  padding-top: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+  border: 1px solid grey;
+  /* border-radius: 5px; */
+  background-color: rgba(255, 255, 255, 0.95);
+  }
+  
+  .bpcard{
+    padding: 0;
+    margin: 0;
+    flex: 1;  
+    display: flex;
+  flex-wrap: wrap; 
+  text-align: center;
+  
+  }

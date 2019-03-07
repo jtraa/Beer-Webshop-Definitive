@@ -1,0 +1,5 @@
+http://weerlive.nl/api/json-data-10min.php?key=05f37961b0&locatie=&callback=?
+
+
+https://openweathermap.org/data/2.5/forecast?id=524901&appid=a11898d44e32530a0b93f777508811a4
+https://samples.openweathermap.org/data/2.5/forecast?id=524901&appid=a11898d44e32530a0b93f777508811a4

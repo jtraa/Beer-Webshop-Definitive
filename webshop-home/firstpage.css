@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  @font-face {
+      font-family: Freeroad Light;
+      src: url(fonts/Freeroad\Light.ttf);
+  }
+
+  body {
+      background-image: url(img/achtergrond.gif);
+      color: #fff;
+      /* overflow: hidden; */
+      background-size: cover;
+  }
+
+  #blackbox {
+      background-color: rgba(000, 000, 000, 0.7);
+      margin-top: 7vh;
+      margin-left: 50vh;
+      margin-right: 50vh;
+      height: 95vh;
+  }
+
+  #titel {
+      font-family: abolition, sans-serif;
+      font-weight: 200;
+      font-size: 450%;
+      padding-top: 7%;
+      padding-right: 12%;
+      text-align: center;
+  }
+
+  #line {
+      background-color: rgba(255, 255, 255, 0.7);
+      height: 1px;
+      margin-top: 1vh;
+      margin-left: 10vh;
+      margin-right: 25vh;
+  }
+
+  #ondertitel {
+      font-family: abolition, sans-serif;
+      font-weight: 100;
+      font-size: 250%;
+      text-align: center;
+      margin-top: 2vh;
+  }
+
+  #content {
+      font-family: Freeroad Light;
+      font-size: 125%;
+      font-weight: 100;
+      text-align: center;
+      margin-left: 10vh;
+      margin-right: 10vh;
+      line-height: 1.25;
+      margin-top: 5vh;
+  }
+
+  button {
+      font-family: abolition, sans-serif;
+      font-weight: 100;
+      font-size: 200%;
+      margin-top: 10vh;
+      padding-left: 7vh;
+      padding-right: 7vh;
+      padding-top: 3vh;
+      padding-bottom: 3vh;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 0px;
+      border-color: rgba(255, 255, 255, 0);
+  }
+
+  button:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  #yes {
+      margin-left: 30vh;
+
+  }
+
+  #no {
+        margin-left: 10vh;
+  }
+
+  #loginregister {
+      width: 30vh;
+  }
+
+  form {
+      font-family: Freeroad Light;
+      margin-left: 10vh;
+      margin-top: 4vh;
+      line-height: 2;
+      justify-content: center;
+  }
+
+  input {
+      font-family: Freeroad Light;
+      font-size: 18px;
+      font-weight: 400;
+      height: 30px;
+      padding: 7px;
+      width: 90vh;
+  }
+  
+  #loginknop {
+      font-family: abolition, sans-serif;
+      font-size: 200%;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 0px;
+      border-color: rgba(255, 255, 255, 0);
+      height: 10vh;
+      width: 30vh;
+      margin-left: -10vh;
+  }
+
+  input[type="checkbox"] {
+      margin-right: -65vh;
+  }
+  
+  :hover#loginknop {
+    background-color: rgba(255, 255, 255, 0.3); 
+  }
+
+  a {
+      color: rgba(255, 255, 255, 1);
+  }
+
+  a:hover {
+      color: rgba(255, 255, 255, 0.7);
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
